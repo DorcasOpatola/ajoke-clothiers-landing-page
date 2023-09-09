@@ -62,7 +62,6 @@ nav {
 /*  HEADER STYLES*/
 .header {
     background-color: #D96971;
-    padding: 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +69,7 @@ nav {
 
 .header p {
     font-size: 20px;
-    font-weight: 6000;
+    font-weight: 300;
     color: #F8F2ED;
     cursor: pointer;
     margin-right: 50px;
