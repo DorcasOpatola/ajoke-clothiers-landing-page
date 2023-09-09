@@ -27,7 +27,6 @@ nav {
     font-weight: 900;
 }
 
-
 /*  To adjust the style of the input field*/
 .search {
     display: flex;
@@ -60,3 +59,19 @@ nav {
     cursor: pointer;
 }
 
+/*  HEADER STYLES*/
+.header {
+    background-color: #D96971;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 6000;
+    color: #F8F2ED;
+    cursor: pointer;
+    margin-right: 50px;
+}
