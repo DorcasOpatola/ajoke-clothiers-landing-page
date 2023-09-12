@@ -77,3 +77,29 @@ nav {
     margin-right: 40px;
 }
 
+/*  SLIDER SECTION STYLES*/
+.slider {
+    background-image: url(Images/BG-2.png);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.sliderWrapper {
+    display: flex;
+    width: 500vw;
+}
+
+.sliderItem {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slideTitle {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: #000000;
+}
