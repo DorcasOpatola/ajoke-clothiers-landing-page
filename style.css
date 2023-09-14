@@ -77,6 +77,28 @@ nav {
     margin-right: 40px;
 }
 
+.header p:hover {
+    border-bottom: 2px solid #ff0011;
+}
+
+.slogan {
+    background-color: #D96971;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slogan {
+    font-weight: bold;
+    color: #F8F2ED;
+}
+
+#slogan:hover {
+    cursor: not-allowed;
+}
+
 /*  SLIDER SECTION STYLES*/
 .slider {
     background-image: url(Images/BG-2.png);
@@ -99,7 +121,27 @@ nav {
 
 .slideTitle {
     position: absolute;
-    top: 10%;
-    right: 10%;
-    color: #000000;
+    top: 13%;
+    left: 5%;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #D96971;
+}
+
+.buyNow {
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F8F2ED;
+    color: #D96971;
+    border: none;
+}
+
+.buyNow:hover {
+    font-weight: 700;
+    border-bottom: 2px solid #ff0011;
+    cursor: pointer;
 }
