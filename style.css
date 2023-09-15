@@ -103,11 +103,13 @@ nav {
 .slider {
     background-image: url(Images/BG-2.png);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
 }
 
 .sliderWrapper {
     display: flex;
     width: 500vw;
+    transition: all 1s ease-in-out;
 }
 
 .sliderItem {
@@ -135,14 +137,15 @@ nav {
     right: 8%;
     font-size: 20px;
     text-align: center;
-    background-color: #F8F2ED;
+    background-color: #ffffff;
     color: #D96971;
-    border: none;
+    border: 12px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #949494;
 }
 
 .buyNow:hover {
     font-weight: 700;
-    border-bottom: 2px solid #ff0011;
     cursor: pointer;
 }
 
@@ -162,8 +165,8 @@ hr {
 }
 
 #socials {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #553327;
-    padding: 0px 12px;
+    padding: 0px 6px;
 }
